@@ -36,7 +36,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: Georgia, serif, "Playfair Display";
   font-weight: 400;
   margin: 0 0 30px 0; }
 
@@ -74,7 +74,7 @@ figure {
 
 #colorlib-aside {
   padding-top: 3em;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   float: left;
   width: 300px;
   position: fixed;
@@ -222,6 +222,7 @@ figure {
 #colorlib-main {
   width: calc(100% - 300px);
   float: right;
+  padding: 0 5em;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -380,8 +381,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  margin-top: 2em;
+  margin-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -405,10 +406,10 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   line-height: 1.8;
   position: relative; }
   .colorlib-heading span {
@@ -600,7 +601,20 @@ body.offcanvas {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 20px;
   font-family: "Quicksand", Arial, sans-serif;
-  font-weight: 500; }
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h3 {
+  font-size: 14px;
+  font-family: "Quicksand", Arial, sans-serif;
+  -webkit-opacity: .8;
+  -moz-opacity: .8;
+  opacity: .8;
+  -ms-filter: alpha(opacity=80);
+  filter: alpha(opacity=80);
+  margin-bottom: 20px;
+}
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
   color: #000; }
@@ -611,7 +625,9 @@ body.offcanvas {
   opacity: .4;
   -ms-filter: alpha(opacity=40);
   filter: alpha(opacity=40);
-  font-size: 16px; }
+  font-size: 16px;
+  margin-left: 0.5em;
+}
 
 .services {
   margin-bottom: 30px;
@@ -1427,3 +1443,8 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.container-wrap {
+  max-width: none; !important
+  margin: 0 auto;
+}
