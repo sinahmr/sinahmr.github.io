@@ -15,4 +15,4 @@ I have recently tackled the problem of generalized few-shot semantic segmentatio
 I earned my master's degree in artificial intelligence from Sharif University of Technology, Tehran, Iran. During my master's, I worked on feature disentanglement in Variational Autoencoders (VAEs), under the supervision of Prof. [Mahdieh Soleymani Baghshah](https://sharif.edu/~soleymani/).
  My academic journey began at the same institution, where I completed my bachelor’s degree.
 
-Additionally, I have practical experience as a software engineer at [Divar](https://divar.ir), a classified ads website operating in Iran.
+Additionally, I have practical experience as a software engineer at [Divar](https://divar.ir/s/tehran), a classified ads website operating in Iran.

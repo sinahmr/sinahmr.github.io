@@ -22,7 +22,7 @@ Education
 Work experience
 ======
 * Software Engineer
-  * Divar Classified Ads: [https://divar.ir](https://divar.ir)
+  * Divar Classified Ads: [https://divar.ir](https://divar.ir/s/tehran)
   * July 2016 - October 2018
   * Development stack: Python, Django, Docker, Golang, PostgreSQL
 
