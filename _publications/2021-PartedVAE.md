@@ -3,8 +3,19 @@ title: "Semi-Supervised Disentanglement of Class-Related and Class-Independent F
 collection: publications
 permalink: /publication/parted-vae
 excerpt: ''
-date: 2009-10-01
-venue: 'ArXiv preprint'
-paperurl: ''
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+date: 2021-02-01
+paperurl: 'https://arxiv.org/abs/2102.00892'
 ---
+
+<i>arXiv preprint</i>
+
+BibTeX Citation:
+
+```bibtex
+@article{hajimiri2021semi,
+  title={Semi-supervised disentanglement of class-related and class-independent factors in vae},
+  author={Hajimiri, Sina and Lotfi, Aryo and Baghshah, Mahdieh Soleymani},
+  journal={arXiv preprint arXiv:2102.00892},
+  year={2021}
+}
+```
