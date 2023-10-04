@@ -86,7 +86,7 @@ author:
   location         :
   employer         : "ETS Montreal"
   pubmed           :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=C5k-mOYAAAAJ"
   email            : "sina.hajimiri@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
