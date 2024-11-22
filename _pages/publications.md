@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-[[paper](https://arxiv.org/abs/2404.08181), [code](https://github.com/sinahmr/NACLIP)] <u>Hajimiri, S.</u>, Ben Ayed, I. and Dolz, J. **Pay Attention to Your Neighbours: Training-Free Open-Vocabulary Semantic Segmentation**. *arXiv preprint arXiv:2404.08181*, 2024.
+[[paper](https://arxiv.org/abs/2404.08181), [code](https://github.com/sinahmr/NACLIP)] <u>Hajimiri, S.</u>, Ben Ayed, I. and Dolz, J. **Pay Attention to Your Neighbours: Training-Free Open-Vocabulary Semantic Segmentation**. To appear in *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision*, 2025.
 
 [[paper](https://arxiv.org/abs/2312.12730), [code](https://github.com/jusiro/CLAP)] Silva-Rodriguez, J., <u>Hajimiri, S.</u>, Ben Ayed, I., and Dolz, J. **A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models**. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 2024.
 
