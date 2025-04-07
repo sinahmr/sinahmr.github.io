@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at École de technologie supérieure in Montreal, Quebec, Canada, conducting research at [LIVIA](https://liviamtl.ca) under the supervision of Professors [Jose Dolz](https://josedolz.github.io) and [Ismail Ben Ayed](https://profs.etsmtl.ca/ibenayed/).
+I am a Ph.D. student at École de technologie supérieure in Montreal, Quebec, Canada, conducting research at LIVIA under the supervision of Professors [Jose Dolz](https://josedolz.github.io) and [Ismail Ben Ayed](https://profs.etsmtl.ca/ibenayed/).
 
-My current research focuses on enhancing the **pre-training of ViT-based approaches on large-scale datasets**, such as ImageNet. Prior to this, I concentrated on low-supervision techniques in computer vision and the application of pre-trained vision-language and foundation models. During my Ph.D., I addressed challenges in **generalized few-shot semantic segmentation**, **few-shot adaptation of vision-language models for classification**, and **open-vocabulary semantic segmentation**.
+My current research focuses on improving **vision-language models in zero-shot classification**. I am also working on enhancing the **pre-training of ViT-based approaches on large-scale datasets**. Prior to this, I concentrated on low-supervision techniques in computer vision and the application of pre-trained vision-language and foundation models. During my Ph.D., I addressed challenges in **open-vocabulary semantic segmentation**, **few-shot adaptation of vision-language models for classification**, and **generalized few-shot semantic segmentation**.
 
-I hold a master's degree in artificial intelligence from Sharif University of Technology. During my master's program, I worked on feature disentanglement in Variational Autoencoders (VAEs), under the supervision of Professor [Mahdieh Soleymani Baghshah](https://sharif.edu/~soleymani/).
+I hold a master's degree in artificial intelligence from Sharif University of Technology. During my master's program, I worked on **feature disentanglement in variational autoencoders (VAEs)**, under the supervision of Professor [Mahdieh Soleymani Baghshah](https://sharif.edu/~soleymani/).
 My academic journey began at the same institution, where I completed my bachelor's degree.
 
 In addition to my academic background, I have practical experience as a software engineer at [Divar](https://divar.ir/s/tehran), a prominent classified ads website in my home country.
