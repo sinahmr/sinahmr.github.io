@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+[[paper](https://arxiv.org/abs/2508.02889), [code](https://github.com/farzad-bz/REFLECT)] Beizaee, F., <u>Hajimiri, S.</u>, Ben Ayed, I., Lodygensky, G., Desrosiers, C. and Dolz, J. **REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport**. In *International Conference on Medical Image Computing and Computer-Assisted Intervention*, 2025.
+
 [[paper](https://arxiv.org/abs/2404.08181), [code](https://github.com/sinahmr/NACLIP)] <u>Hajimiri, S.</u>, Ben Ayed, I. and Dolz, J. **Pay Attention to Your Neighbours: Training-Free Open-Vocabulary Semantic Segmentation**. In *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision*, 2025.
 
 [[paper](https://arxiv.org/abs/2312.12730), [code](https://github.com/jusiro/CLAP)] Silva-Rodriguez, J., <u>Hajimiri, S.</u>, Ben Ayed, I., and Dolz, J. **A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models**. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 2024.
