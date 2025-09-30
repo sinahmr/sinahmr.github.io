@@ -10,7 +10,7 @@ redirect_from:
 
 I am a Ph.D. student at École de technologie supérieure in Montreal, Quebec, Canada, conducting research at LIVIA under the supervision of Professors [Jose Dolz](https://josedolz.github.io) and [Ismail Ben Ayed](https://profs.etsmtl.ca/ibenayed/). 
 
-% learning efficiently in low data regime for computer vision and multi-modal problems
+[//]: # ( learning efficiently in low data regime for computer vision and multi-modal problems)
 
 I am currently working as a visiting researcher at ServiceNow, where I research **web agents**.
 Prior to that, I worked on enhancing the **pre-training of ViT-based approaches on large-scale datasets**. I also focused on low-supervision techniques in computer vision and the application of pre-trained vision-language and foundation models. During my Ph.D., I addressed challenges in **open-vocabulary semantic segmentation**, **few-shot adaptation of vision-language models for classification**, and **generalized few-shot semantic segmentation**.
