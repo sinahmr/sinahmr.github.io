@@ -8,14 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at École de technologie supérieure in Montreal, Quebec, Canada, conducting research at LIVIA under the supervision of Professors [Jose Dolz](https://josedolz.github.io) and [Ismail Ben Ayed](https://profs.etsmtl.ca/ibenayed/). 
+I am a Ph.D. student at École de technologie supérieure (**ÉTS**) in Montreal, Quebec, Canada, conducting research at LIVIA.
+I am currently working as a visiting researcher at **ServiceNow AI**, where I work on learning reusable skills from **web agent** trajectories without fine-tuning.
 
-[//]: # ( learning efficiently in low data regime for computer vision and multi-modal problems)
+During my Ph.D., I have worked on **segmentation-in-mind pre-training for ViT-based models**, **open-vocabulary semantic segmentation**, **few-shot adaptation of vision-language models for classification**, and **generalized few-shot semantic segmentation**.
+I hold a master's degree in artificial intelligence from Sharif University of Technology, where I worked on **feature disentanglement in variational autoencoders (VAEs)**.
+I also completed my bachelor's degree at the same institution.
 
-I am currently working as a visiting researcher at ServiceNow, where I research **web agents**.
-Prior to that, I worked on enhancing the **pre-training of ViT-based approaches on large-scale datasets**. I also focused on low-supervision techniques in computer vision and the application of pre-trained vision-language and foundation models. During my Ph.D., I addressed challenges in **open-vocabulary semantic segmentation**, **few-shot adaptation of vision-language models for classification**, and **generalized few-shot semantic segmentation**.
-
-I hold a master's degree in artificial intelligence from Sharif University of Technology. During my master's program, I worked on **feature disentanglement in variational autoencoders (VAEs)**, under the supervision of Professor [Mahdieh Soleymani Baghshah](https://sharif.edu/~soleymani/).
-My academic journey began at the same institution, where I completed my bachelor's degree.
-
-In addition to my academic background, I have practical experience as a software engineer at [Divar](https://divar.ir/s/tehran), a prominent classified ads website in my home country.
+In addition to my academic work, I have industry experience as a software engineer at [Divar](https://divar.ir/s/tehran), a major classified ads platform in my home country.
