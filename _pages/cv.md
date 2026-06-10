@@ -21,10 +21,14 @@ Education
 
 Work experience
 ======
+* Visiting AI Researcher
+  * ServiceNow AI Research: [https://www.servicenow.com/research](https://www.servicenow.com/research) <!-- https://www.servicenow.com/research/author/sina-hajimiri.html -->
+  * Sept 2025 - May 2026
+  <!-- * Development stack: Python, Django, Docker, Golang, PostgreSQL -->
 * Software Engineer
   * Divar Classified Ads: [https://divar.ir](https://divar.ir/s/tehran)
   * July 2016 - October 2018
-  * Development stack: Python, Django, Docker, Golang, PostgreSQL
+  <!-- * Development stack: Python, Django, Docker, Golang, PostgreSQL -->
 
 
 [Publications](/publications/)
