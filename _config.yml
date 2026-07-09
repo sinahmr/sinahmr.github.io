@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sina Hajimiri"
 title_separator          : "-"
 name                     : &name "Sina Hajimiri"
-description              : &description "PhD student at ETS Montreal"
+description              : &description "AI PhD candidate at ETS Montreal"
 url                      : https://sinahmr.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sinahmr.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Sina Hajimiri"
   avatar           : "profile.png"
-  bio              : "PhD Student, Computer Vision"
+  bio              : "AI PhD Candidate | LLM Agents | Vision-Language Models"
   location         :
   employer         : "ETS Montreal"
   pubmed           :

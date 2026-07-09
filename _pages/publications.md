@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+[[paper](https://arxiv.org/abs/2606.15017), [page](https://sinahmr.github.io/budget-constrained-web-agents)] <u>Hajimiri, S.</u>, Aminbeidokhti, M., Dolz, J., Ben Ayed, I., Laradji, I. H., Gella, S., and Gontier, N. **Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents**. Under review.
+
+Lù, X., Vattikonda, D., <u>Hajimiri, S.</u>, Pesaran zadeh, F., BehnamGhader, P., Darwiche, G., Kazemnejad, A., Pal, C., Drouin, A., and Reddy, S. **AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Agent Tasks**. Under review.
+
 [[paper](https://arxiv.org/abs/2603.04892), [code](https://github.com/sinahmr/LocAtViT)] <u>Hajimiri, S.</u>, Beizaee, F., Shakeri, F., Desrosiers, C., Ben Ayed, I., and Dolz, J. **Locality-Attending Vision Transformer**. In *International Conference on Learning Representations*, 2026.
 
 [[paper](https://arxiv.org/abs/2508.02889), [code](https://github.com/farzad-bz/REFLECT)] Beizaee, F., <u>Hajimiri, S.</u>, Ben Ayed, I., Lodygensky, G., Desrosiers, C. and Dolz, J. **REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport**. In *International Conference on Medical Image Computing and Computer-Assisted Intervention*, 2025.
