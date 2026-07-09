@@ -31,7 +31,7 @@ Work experience
 ======
 * Visiting Researcher
   * ServiceNow AI Research: [https://www.servicenow.com/research](https://www.servicenow.com/research) <!-- https://www.servicenow.com/research/author/sina-hajimiri.html -->
-  * September 2025 - May 2026
+  * September 2025 - June 2026
   * Developed and evaluated self-improving web agents that learn reusable skills, workflows, and memories from past trajectories without fine-tuning.
   * Studied web-agent memory and skill modules under controlled inference-token budgets in WebArena/BrowserGym-style environments.
   * Contributed to AgentHorizon, a benchmark for evaluating agentic judges on long-horizon computer-use workflows.
