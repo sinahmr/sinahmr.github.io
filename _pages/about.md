@@ -8,14 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Artificial Intelligence at École de technologie supérieure (**ÉTS**) in Montreal, Quebec, Canada, conducting research at LIVIA.
-My current research spans **LLM agents**, **computer-use agents**, **agent evaluation**, and **vision-language models**.
+I am a PhD candidate in Artificial Intelligence at École de technologie supérieure (ÉTS) and a researcher at LIVIA in Montréal, Canada. My current research spans LLM agents, computer-use agents, agent evaluation, vision-language models, and vision transformers architecture.
 
-I was recently a visiting researcher at **ServiceNow AI Research**, where I worked on self-improving web agents that learn reusable skills, workflows, and memories from interaction trajectories without fine-tuning.
-This line of work asks when online memory and skill modules are actually worth their inference-token cost.
+Most recently, I was a Visiting Researcher at ServiceNow AI Research, where I worked on self-improving web agents that learn reusable skills, workflows, and memories from past interaction trajectories without fine-tuning. This work investigates a practical question: when do online memory and skill modules improve agent performance enough to justify their inference-token cost? I also contributed to AgentHorizon, a benchmark for evaluating agentic judges on long-horizon computer-use tasks.
 
-During my Ph.D., I have also worked on **locality-aware pre-training for ViT-based models**, **open-vocabulary semantic segmentation**, **few-shot adaptation of vision-language models**, and **generalized few-shot semantic segmentation**.
-I hold a master's degree in artificial intelligence from Sharif University of Technology, where I worked on **feature disentanglement in variational autoencoders** (VAEs).
-I also completed my bachelor's degree at the same institution.
+My doctoral research also spans vision transformer architecture and pretraining, open-vocabulary semantic segmentation, few-shot adaptation of vision-language models, and generalized few-shot semantic segmentation.
 
-In addition to my academic work, I have industry experience as a software engineer at [Divar](https://divar.ir/s/tehran), a major classified ads platform in my home country.
+Before my PhD, I earned an MSc in Artificial Intelligence and a BSc in Software Engineering from Sharif University of Technology. My master’s research explored disentangled representation learning with variational autoencoders. I also bring two years of production software-engineering experience from [Divar](https://divar.ir/s/tehran), where I built and maintained backend services and web applications.
