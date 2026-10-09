@@ -7,7 +7,7 @@ author_profile: true
 
 [[paper](https://arxiv.org/abs/2606.15017), [code](https://github.com/ServiceNow/budget-constrained-web-agents), [page](https://sinahmr.github.io/budget-constrained-web-agents)] <u>Hajimiri, S.</u>, Aminbeidokhti, M., Dolz, J., Ben Ayed, I., Laradji, I. H., Gella, S., and Gontier, N. **Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents**. In *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing*, 2026.
 
-Lù, X., Vattikonda, D., <u>Hajimiri, S.</u>, Pesaran zadeh, F., BehnamGhader, P., Darwiche, G., Kazemnejad, A., Pal, C., Drouin, A., and Reddy, S. **AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Agent Tasks**. Under review.
+[[paper](https://arxiv.org/abs/2610.11050), [code](https://github.com/ServiceNow/agenthorizon)] Lù, X., Vattikonda, D., <u>Hajimiri, S.</u>, Pesaran zadeh, F., BehnamGhader, P., Darwiche, G., Kazemnejad, A., Pal, C., Drouin, A., and Reddy, S. **AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Agent Tasks**. Under review.
 
 [[paper](https://arxiv.org/abs/2603.04892), [code](https://github.com/sinahmr/LocAtViT)] <u>Hajimiri, S.</u>, Beizaee, F., Shakeri, F., Desrosiers, C., Ben Ayed, I., and Dolz, J. **Locality-Attending Vision Transformer**. In *International Conference on Learning Representations*, 2026.
 
