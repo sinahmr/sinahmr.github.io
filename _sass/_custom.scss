@@ -1,0 +1,144 @@
+/* ==========================================================================
+   Site-specific additions (home page, publications, CV, mobile sidebar)
+   ========================================================================== */
+
+$accent: #2563eb;
+
+/* Call-out box on the home page */
+.callout {
+  margin: 0 0 1.75em;
+  padding: 1em 1.25em;
+  border-left: 4px solid $accent;
+  border-radius: $border-radius;
+  background: mix(#fff, $accent, 94%);
+  font-size: 0.95em;
+
+  p { margin: 0 0 0.6em; }
+  p:last-child { margin-bottom: 0; }
+}
+
+/* Section headings on content pages */
+.page__content h1 {
+  margin-top: 1.6em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid $border-color;
+  font-size: $type-size-4;
+}
+.page__content h3 {
+  margin-top: 1.4em;
+  margin-bottom: 0.4em;
+  font-size: $type-size-5;
+}
+
+/* Publication entries */
+.pub {
+  margin: 0 0 1.1em;
+  padding: 0.75em 0.9em;
+  border: 1px solid $border-color;
+  border-radius: 6px;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+.pub__head { margin-bottom: 0.25em; }
+.pub__venue {
+  display: inline-block;
+  margin-right: 0.45em;
+  padding: 0.1em 0.5em;
+  border-radius: 3px;
+  background: $accent;
+  color: #fff;
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  vertical-align: 0.15em;
+  white-space: nowrap;
+}
+.pub__venue--muted { background: $gray; }
+.pub__title { font-weight: 700; color: $text-color; }
+.pub__authors { margin-bottom: 0.3em; color: $dark-gray; font-size: 0.95em; }
+.pub__tldr { color: mix(#fff, $text-color, 15%); font-size: 0.95em; }
+.pub__links {
+  margin-top: 0.35em;
+  font-size: 0.9em;
+
+  a {
+    margin-right: 0.9em;
+    font-weight: 600;
+    text-decoration: none;
+    &:before { content: "\2192\00a0"; color: $light-gray; font-weight: 400; }
+    &:hover { text-decoration: underline; }
+  }
+}
+.page__lead-note { color: $gray; font-size: 0.9em; }
+
+/* Experience timeline and news list */
+.timeline, .news {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9em;
+
+  li {
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 0.45em 0;
+    border-bottom: 1px solid $border-color;
+    line-height: 1.45;
+  }
+  li:last-child { border-bottom: 0; }
+}
+.timeline__when, .news__when {
+  flex: 0 0 6.5em;
+  color: $gray;
+  font-variant-numeric: tabular-nums;
+}
+.timeline__note {
+  display: block;
+  color: $gray;
+  font-size: 0.92em;
+}
+
+/* CV page */
+.cv-date {
+  float: right;
+  margin-left: 1em;
+  color: $gray;
+  font-size: 0.85em;
+  font-weight: 400;
+}
+.page__content table, .archive table { font-size: 0.85em; }
+.page__content table thead, .archive table thead { display: none; }
+
+@media (max-width: 600px) {
+  .cv-date { float: none; display: block; margin-left: 0; }
+  .timeline li, .news li { flex-direction: column; gap: 0.1em; }
+  .timeline__when, .news__when { flex-basis: auto; font-size: 0.9em; }
+}
+
+/* Mobile/tablet: show contact links directly instead of behind "Follow" */
+@media (max-width: #{$large - 1px}) {
+  .author__urls-wrapper {
+    display: block;
+    width: 100%;
+    margin-top: 0.75em;
+
+    button { display: none !important; }
+  }
+  .author__urls {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 0.2em 1em;
+    position: static;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    font-size: 0.85em;
+
+    &:before, &:after { display: none; }
+    li { margin: 0; }
+    a { margin-bottom: 0; }
+  }
+}

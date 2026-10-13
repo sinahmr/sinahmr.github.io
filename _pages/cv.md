@@ -1,50 +1,33 @@
 ---
 layout: archive
+title: "CV"
 permalink: /cv/
 author_profile: true
+description: "CV of Sina Hajimiri: AI PhD candidate at ÉTS Montréal, former Visiting Researcher at ServiceNow AI Research, working on LLM agents, agent evaluation, and vision-language models."
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
 
-
-Research interests
+Summary
 ======
-* LLM agents, computer-use agents, and agent evaluation
-* Self-improving and memory-augmented web agents
-* Vision-language models, open-vocabulary learning, and semantic segmentation
-* Vision transformer pre-training
+AI PhD candidate at ÉTS Montréal with experience in LLM agents, computer-use agents, agent evaluation, vision-language models, and vision transformers pretraining. Recently a Visiting Researcher at ServiceNow AI Research on memory-augmented and self-improving web agents. First-author publications at EMNLP, ICLR, CVPR, and WACV. Industry research experience at ServiceNow, backed by two years of production software engineering.
 
 
 Education
 ======
-* Ph.D. in Artificial Intelligence \| ETS Montreal \| 2022 - 2026
-  * Supervisors: Professors [Jose Dolz](https://josedolz.github.io) and [Ismail Ben Ayed](https://profs.etsmtl.ca/ibenayed/)
-* M.Sc. in Artificial Intelligence \| Sharif University of Technology \| 2018 - 2021
-  * Supervisor: Professor [Mahdieh Soleymani Baghshah](https://sharif.edu/~soleymani/)
-  * Dissertation Title: Representation Learning using Deep Neural Networks and Information Theory 
-* B.Sc. in Software Engineering \| Sharif University of Technology \| 2014 - 2018
+
+**PhD in Artificial Intelligence**, École de technologie supérieure (ÉTS), Montréal <span class="cv-date">Jan 2022 – Nov 2026 (expected)</span>
+* Supervisors: [Jose Dolz](https://josedolz.github.io) and [Ismail Ben Ayed](https://profs.etsmtl.ca/ibenayed/) · GPA 4.3/4.3
+
+**MSc in Artificial Intelligence**, Sharif University of Technology, Tehran <span class="cv-date">Sep 2018 – Mar 2021</span>
+* Supervisor: [Mahdieh Soleymani Baghshah](https://sharif.edu/~soleymani/) · GPA 18.86/20
+
+**BSc in Software Engineering**, Sharif University of Technology, Tehran <span class="cv-date">Sep 2014 – Aug 2018</span>
+* GPA 18.47/20
 
 
-Work experience
+Publications
 ======
-* Visiting Researcher
-  * ServiceNow AI Research: [https://www.servicenow.com/research](https://www.servicenow.com/research) <!-- https://www.servicenow.com/research/author/sina-hajimiri.html -->
-  * September 2025 - June 2026
-  * Developed and evaluated self-improving web agents that learn reusable skills, workflows, and memories from past trajectories without fine-tuning.
-  * Studied web-agent memory and skill modules under controlled inference-token budgets in WebArena/BrowserGym-style environments.
-  * Contributed to AgentHorizon, a benchmark for evaluating agentic judges on long-horizon computer-use workflows.
-* Researcher
-  * LIVIA, École de technologie supérieure, Montreal
-  * January 2022 - present
-  * Published first-author work on few-shot segmentation, open-vocabulary segmentation, and locality-aware ViT pre-training.
-  * Built and released PyTorch research code for segmentation, CLIP/VLM adaptation, and ViT pre-training projects.
-* Software Engineer
-  * Divar Classified Ads: [https://divar.ir](https://divar.ir/s/tehran)
-  * July 2016 - October 2018
-  * Built and maintained production microservices and web applications using Python, Django, Docker, Redis, PostgreSQL, and Golang.
-
-
-[Publications](/publications/)
-======
+See the [publications page]({{ base_path }}/publications/).

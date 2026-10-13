@@ -1,0 +1,110 @@
+# Single source of truth for publications.
+# Rendered on the home page (by `id`, see _pages/about.md) and on /publications/.
+# `me` is underlined automatically in the author list.
+
+- id: budget-web-agents
+  title: "Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents"
+  authors: "Hajimiri, S., Aminbeidokhti, M., Dolz, J., Ben Ayed, I., Laradji, I. H., Gella, S., and Gontier, N."
+  venue: "EMNLP 2026"
+  venue_full: "Conference on Empirical Methods in Natural Language Processing (main conference), 2026"
+  first_author: true
+  tldr: "Online memory, workflow, and skill modules for web agents cost tokens on every step. Under a matched inference-token budget, a plain agent that spends those tokens on extra actor steps matches or beats AWM, ASI, and ReasoningBank across four WebArena domains and three LLMs, often with fewer total tokens. Run-to-run variance is large enough to flip which method wins."
+  links:
+    - name: paper
+      url: https://arxiv.org/abs/2606.15017
+    - name: code
+      url: https://github.com/ServiceNow/budget-constrained-web-agents
+    - name: project page
+      url: /budget-constrained-web-agents/
+
+- id: agenthorizon
+  title: "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Agent Tasks"
+  authors: "Lù, X., Vattikonda, D., Hajimiri, S., Pesaran zadeh, F., BehnamGhader, P., Darwiche, G., Kazemnejad, A., Pal, C., Drouin, A., and Reddy, S."
+  venue: "Under review"
+  venue_full: "arXiv preprint, 2026"
+  tldr: "A benchmark of 1,373 long-horizon computer-use tasks built from human-recorded trajectories across three operating systems. Judges must tell a successful trajectory apart from one that completed a similar but incompatible request. We evaluate LLM judges, both on full trajectories and as tool-using coding agents."
+  links:
+    - name: paper
+      url: https://arxiv.org/abs/2610.11050
+    - name: code
+      url: https://github.com/ServiceNow/agenthorizon
+
+- id: locatvit
+  title: "Locality-Attending Vision Transformer"
+  authors: "Hajimiri, S., Beizaee, F., Shakeri, F., Desrosiers, C., Ben Ayed, I., and Dolz, J."
+  venue: "ICLR 2026"
+  venue_full: "International Conference on Learning Representations, 2026"
+  first_author: true
+  tldr: "A drop-in change to ViTs for better dense prediction: a learnable Gaussian bias makes each patch attend more to its neighbours while keeping global context, and patch representations are refined. Improves segmentation of classification-trained ViTs (over 6% on ADE20K for ViT-Tiny, 4% for ViT-Base) without hurting classification accuracy."
+  links:
+    - name: paper
+      url: https://arxiv.org/abs/2603.04892
+    - name: code
+      url: https://github.com/sinahmr/LocAtViT
+    - name: huggingface
+      url: https://huggingface.co/papers/2603.04892
+
+- id: reflect
+  title: "REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport"
+  authors: "Beizaee, F., Hajimiri, S., Ben Ayed, I., Lodygensky, G., Desrosiers, C., and Dolz, J."
+  venue: "MICCAI 2025"
+  venue_full: "International Conference on Medical Image Computing and Computer-Assisted Intervention, 2025"
+  tldr: "Unsupervised anomaly detection in brain MRI that uses rectified flows to map an anomalous scan to its healthy counterpart in a single inference step."
+  links:
+    - name: paper
+      url: https://arxiv.org/abs/2508.02889
+    - name: code
+      url: https://github.com/farzad-bz/REFLECT
+
+- id: naclip
+  title: "Pay Attention to Your Neighbours: Training-Free Open-Vocabulary Semantic Segmentation"
+  authors: "Hajimiri, S., Ben Ayed, I., and Dolz, J."
+  venue: "WACV 2025"
+  venue_full: "IEEE/CVF Winter Conference on Applications of Computer Vision, 2025"
+  first_author: true
+  tldr: "NACLIP: training-free open-vocabulary segmentation by making CLIP's vision transformer attend to each patch's spatial neighbourhood. No extra data, auxiliary networks, or heavy hyperparameter tuning; state of the art on most of eight benchmarks at publication."
+  links:
+    - name: paper
+      url: https://arxiv.org/abs/2404.08181
+    - name: code
+      url: https://github.com/sinahmr/NACLIP
+
+- id: clap
+  title: "A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models"
+  authors: "Silva-Rodriguez, J., Hajimiri, S., Ben Ayed, I., and Dolz, J."
+  venue: "CVPR 2024"
+  venue_full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024"
+  tldr: "Few-shot adaptation methods for CLIP depend on tuning with large labeled validation sets; without it they often lose to a linear probe. We propose CLAP, a class-adaptive linear probe that is more robust and efficient."
+  links:
+    - name: paper
+      url: https://arxiv.org/abs/2312.12730
+    - name: code
+      url: https://github.com/jusiro/CLAP
+
+- id: diam
+  title: "A Strong Baseline for Generalized Few-Shot Semantic Segmentation"
+  authors: "Hajimiri, S., Boudiaf, M., Ben Ayed, I., and Dolz, J."
+  venue: "CVPR 2023"
+  venue_full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023"
+  first_author: true
+  tldr: "DIaM: an InfoMax-based inference procedure with knowledge distillation that runs on top of any segmentation network trained on base classes. Improves novel-class performance by 7–26% on PASCAL-5i and 3–12% on COCO-20i."
+  links:
+    - name: paper
+      url: https://arxiv.org/abs/2211.14126
+    - name: code
+      url: https://github.com/sinahmr/DIaM
+    - name: poster
+      url: https://cvpr2023.thecvf.com/media/PosterPDFs/CVPR%202023/21135.png?t=1685706477.1818862
+
+- id: partedvae
+  title: "Semi-Supervised Disentanglement of Class-Related and Class-Independent Factors in VAE"
+  authors: "Hajimiri, S., Lotfi, A., and Soleymani Baghshah, M."
+  venue: "arXiv 2021"
+  venue_full: "arXiv preprint arXiv:2102.00892, 2021"
+  first_author: true
+  tldr: "A VAE framework that separates class-related from class-independent factors of variation with limited labels (MSc research)."
+  links:
+    - name: paper
+      url: https://arxiv.org/abs/2102.00892
+    - name: code
+      url: https://github.com/sinahmr/parted-vae

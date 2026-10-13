@@ -3,31 +3,16 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+redirect_from:
+  - /presentations/
+  - /talks/
+description: "Publications by Sina Hajimiri on LLM agents, agent evaluation, vision transformers, and vision-language models (EMNLP, ICLR, CVPR, WACV, MICCAI)."
 ---
-
-[[paper](https://arxiv.org/abs/2606.15017), [code](https://github.com/ServiceNow/budget-constrained-web-agents), [page](https://sinahmr.github.io/budget-constrained-web-agents)] <u>Hajimiri, S.</u>, Aminbeidokhti, M., Dolz, J., Ben Ayed, I., Laradji, I. H., Gella, S., and Gontier, N. **Are Online Skill and Memory Modules Always Worth Their Tokens? A Budget-Constrained Study of Web Agents**. In *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing*, 2026.
-
-[[paper](https://arxiv.org/abs/2610.11050), [code](https://github.com/ServiceNow/agenthorizon)] Lù, X., Vattikonda, D., <u>Hajimiri, S.</u>, Pesaran zadeh, F., BehnamGhader, P., Darwiche, G., Kazemnejad, A., Pal, C., Drouin, A., and Reddy, S. **AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Agent Tasks**. Under review.
-
-[[paper](https://arxiv.org/abs/2603.04892), [code](https://github.com/sinahmr/LocAtViT)] <u>Hajimiri, S.</u>, Beizaee, F., Shakeri, F., Desrosiers, C., Ben Ayed, I., and Dolz, J. **Locality-Attending Vision Transformer**. In *International Conference on Learning Representations*, 2026.
-
-[[paper](https://arxiv.org/abs/2508.02889), [code](https://github.com/farzad-bz/REFLECT)] Beizaee, F., <u>Hajimiri, S.</u>, Ben Ayed, I., Lodygensky, G., Desrosiers, C. and Dolz, J. **REFLECT: Rectified Flows for Efficient Brain Anomaly Correction Transport**. In *International Conference on Medical Image Computing and Computer-Assisted Intervention*, 2025.
-
-[[paper](https://arxiv.org/abs/2404.08181), [code](https://github.com/sinahmr/NACLIP)] <u>Hajimiri, S.</u>, Ben Ayed, I. and Dolz, J. **Pay Attention to Your Neighbours: Training-Free Open-Vocabulary Semantic Segmentation**. In *Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision*, 2025.
-
-[[paper](https://arxiv.org/abs/2312.12730), [code](https://github.com/jusiro/CLAP)] Silva-Rodriguez, J., <u>Hajimiri, S.</u>, Ben Ayed, I., and Dolz, J. **A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models**. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 2024.
-
-[[paper](https://arxiv.org/abs/2211.14126), [code](https://github.com/sinahmr/DIaM)] <u>Hajimiri, S.</u>, Boudiaf, M., Ben Ayed, I., and Dolz, J. **A Strong Baseline for Generalized Few-Shot Semantic Segmentation**. In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* (pp. 11269-11278), 2023.
-
-[[paper](https://arxiv.org/abs/2102.00892), [code](https://github.com/sinahmr/parted-vae)] <u>Hajimiri, S.</u>, Lotfi, A., and Soleymani Baghshah, M. **Semi-Supervised Disentanglement of Class-Related and Class-Independent Factors in VAE**. *arXiv preprint arXiv:2102.00892*, 2021.
-
-
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
+<p class="page__lead-note">Also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>. <u>Underlined</u>: me.</p>
+
+{% for p in site.data.publications %}
+{% include pub.html pub=p %}
 {% endfor %}

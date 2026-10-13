@@ -1,0 +1,20 @@
+{% comment %}
+  Renders one entry of _data/publications.yml.
+  Usage: {% include pub.html id="locatvit" %}  or  {% include pub.html pub=p %}
+  Optional: compact=true hides the author list.
+{% endcomment %}
+{% include base_path %}
+{% if include.pub %}{% assign p = include.pub %}{% else %}{% assign p = site.data.publications | where: "id", include.id | first %}{% endif %}
+{% if p %}
+<div class="pub">
+  <div class="pub__head">
+    <span class="pub__venue{% if p.venue contains 'review' or p.venue contains 'arXiv' %} pub__venue--muted{% endif %}">{{ p.venue }}</span>
+    <span class="pub__title">{{ p.title }}</span>
+  </div>
+  {% unless include.compact %}
+  <div class="pub__authors">{{ p.authors | replace: "Hajimiri, S.", "<u>Hajimiri, S.</u>" }} <em>{{ p.venue_full }}</em>.</div>
+  {% endunless %}
+  {% if p.tldr %}<div class="pub__tldr">{{ p.tldr }}</div>{% endif %}
+  <div class="pub__links">{% for l in p.links %}<a href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ base_path }}{{ l.url }}{% endif %}">{{ l.name }}</a>{% endfor %}</div>
+</div>
+{% endif %}

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Sina Hajimiri"
 title_separator          : "-"
 name                     : &name "Sina Hajimiri"
-description              : &description "AI PhD candidate at ETS Montreal"
+description              : &description "Sina Hajimiri, AI PhD candidate at ÉTS Montréal working on LLM agents, agent evaluation, and multimodal AI."
 url                      : https://sinahmr.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sinahmr.github.io"
@@ -81,10 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Sina Hajimiri"
-  avatar           : "profile.png"
-  bio              : "AI PhD Candidate | LLM Agents | Vision-Language Models"
-  location         :
-  employer         : "ETS Montreal"
+  avatar           : "profile.jpg"
+  bio              : "AI PhD Candidate | LLM Agents | Multimodal AI"
+  location         : "Montréal, Canada"
+  employer         : "ÉTS Montréal"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=C5k-mOYAAAAJ"
   email            : "sina.hajimiri@gmail.com"
@@ -124,6 +124,21 @@ include:
   - _pages
   - files
 exclude:
+  # template leftovers that should not be published
+  - _pages/not-used
+  - _pages/presentations.md  # merged into /publications/
+  - _posts
+  - _drafts
+  - _talks
+  - _teaching
+  - _portfolio
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - markdown_generator
+  - CONTRIBUTING.md
+  - CHANGELOG.md
+  - .idea
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
