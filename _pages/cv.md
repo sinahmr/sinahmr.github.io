@@ -10,8 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-Summary
-======
+
 AI PhD candidate at ÉTS Montréal with experience in LLM agents, computer-use agents, agent evaluation, vision-language models, and vision transformers pretraining. Recently a Visiting Researcher at ServiceNow AI Research on memory-augmented and self-improving web agents. First-author publications at EMNLP, ICLR, CVPR, and WACV. Industry research experience at ServiceNow, backed by two years of production software engineering.
 
 
@@ -30,4 +29,4 @@ Education
 
 Publications
 ======
-See the [publications page]({{ base_path }}/publications/).
+See the [publications page]({{ base_path }}/publications/) or my [Google Scholar](https://scholar.google.com/citations?hl=en&user=C5k-mOYAAAAJ) profile.

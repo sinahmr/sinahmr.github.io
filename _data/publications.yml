@@ -35,7 +35,7 @@
   venue: "ICLR 2026"
   venue_full: "International Conference on Learning Representations, 2026"
   first_author: true
-  tldr: "A drop-in change to ViTs for better dense prediction: a learnable Gaussian bias makes each patch attend more to its neighbours while keeping global context, and patch representations are refined. Improves segmentation of classification-trained ViTs (over 6% on ADE20K for ViT-Tiny, 4% for ViT-Base) without hurting classification accuracy."
+  tldr: "A minor change to ViTs' architecture for better dense prediction: a learnable Gaussian bias makes each patch attend more to its neighbours while keeping global context, and patch representations are refined. Improves segmentation of classification-trained ViTs (over 6% on ADE20K for ViT-Tiny, 4% for ViT-Base) without hurting classification accuracy."
   links:
     - name: paper
       url: https://arxiv.org/abs/2603.04892
@@ -93,8 +93,8 @@
       url: https://arxiv.org/abs/2211.14126
     - name: code
       url: https://github.com/sinahmr/DIaM
-    - name: poster
-      url: https://cvpr2023.thecvf.com/media/PosterPDFs/CVPR%202023/21135.png?t=1685706477.1818862
+    # - name: poster
+    #   url: https://cvpr2023.thecvf.com/media/PosterPDFs/CVPR%202023/21135.png?t=1685706477.1818862
 
 - id: partedvae
   title: "Semi-Supervised Disentanglement of Class-Related and Class-Independent Factors in VAE"
@@ -102,7 +102,7 @@
   venue: "arXiv 2021"
   venue_full: "arXiv preprint arXiv:2102.00892, 2021"
   first_author: true
-  tldr: "A VAE framework that separates class-related from class-independent factors of variation with limited labels (MSc research)."
+  tldr: "A VAE framework that separates class-related from class-independent factors of variation with limited labels."
   links:
     - name: paper
       url: https://arxiv.org/abs/2102.00892
